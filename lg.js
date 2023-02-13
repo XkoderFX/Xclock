@@ -7,6 +7,7 @@ class ClockUpdater {
     }
 
     _update() {
+        ddo = "dd2"
         let clock = new Clock();
         document.getElementById("day").textContent = clock.Day;
         document.getElementById("hours").textContent = clock.Hour;
